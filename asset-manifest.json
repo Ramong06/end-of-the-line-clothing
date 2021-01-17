@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/end-of-the-line-clothing/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/end-of-the-line-clothing/static/js/main.2203108e.chunk.js",
+    "main.js.map": "/end-of-the-line-clothing/static/js/main.2203108e.chunk.js.map",
+    "runtime-main.js": "/end-of-the-line-clothing/static/js/runtime-main.2f816f2e.js",
+    "runtime-main.js.map": "/end-of-the-line-clothing/static/js/runtime-main.2f816f2e.js.map",
+    "static/js/2.21ba646f.chunk.js": "/end-of-the-line-clothing/static/js/2.21ba646f.chunk.js",
+    "static/js/2.21ba646f.chunk.js.map": "/end-of-the-line-clothing/static/js/2.21ba646f.chunk.js.map",
+    "static/js/3.6bc92164.chunk.js": "/end-of-the-line-clothing/static/js/3.6bc92164.chunk.js",
+    "static/js/3.6bc92164.chunk.js.map": "/end-of-the-line-clothing/static/js/3.6bc92164.chunk.js.map",
+    "index.html": "/end-of-the-line-clothing/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/end-of-the-line-clothing/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.21ba646f.chunk.js.LICENSE.txt": "/end-of-the-line-clothing/static/js/2.21ba646f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/end-of-the-line-clothing/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f816f2e.js",
+    "static/js/2.21ba646f.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.2203108e.chunk.js"
+  ]
+}
