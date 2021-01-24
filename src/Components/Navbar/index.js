@@ -1,13 +1,14 @@
 import React from 'react';
 import './style.css';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import Logo from '../../assets/EOL.PNG'; // with import
 
 
 const Navigation = () => {
     return (
         <div>
-                       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+                <Navbar.Brand href="#home"><img src={ Logo } alt='' height='100px' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
