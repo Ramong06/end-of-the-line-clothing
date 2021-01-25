@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
-import Logo from '../../assets/EOL.jpeg';
+import Logo from '../../images/EOL.jpeg';
 
 
 const Navigation = () => {

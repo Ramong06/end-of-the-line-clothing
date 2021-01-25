@@ -1,24 +1,28 @@
+import BlackAndBlueDress from '../../images/IMG_4795.jpg';
+import PinkTank from '../../images/IMG_4816.jpg';
+import BlackDress from '../../images/IMG_4826.jpg';
+import BrownAndBlackDress from '../../images/IMG_4835.jpg';
+import BlueDress from '../../images/IMG_4946.jpg';
+import Boots from '../../images/IMG_5072.jpg';
+
 export const SliderData = [
     {
-        image: './assets/EOL.jpeg'
+        image: BlackAndBlueDress
     },
     {
-        image: './assets/IMG_5072.jpg'
+        image: PinkTank
     },
     {
-        image: './assets/IMG_4795.jpg'
+        image: BlackDress
     },
     {
-        image: './assets/IMG_4816.jpg'
+        image: BrownAndBlackDress
     },
     {
-        image: './assets/IMG_4826.jpg'
+        image: BlueDress
     },
     {
-        image: './assets/IMG_4946.jpg'
-    },
-    {
-        image: './assets/IMG_4835.jpg'
+        image: Boots
     },
 ];
 
