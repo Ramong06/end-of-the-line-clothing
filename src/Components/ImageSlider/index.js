@@ -24,15 +24,18 @@ const ImageSlider = ({ slides }) => {
     };
 
     return (
-        <hero className='hero__slider'>
-            <ArrowBackIosIcon className="backArrow" onClick={prevSlide}/>
-            <ArrowForwardIosIcon className="forwardArrow" onClick={nextSlide} />
+        <div className='hero__slider'>
+
             { SliderData.map((slide, index) => {
                 return (
-                    <img src={slide.image} alt='eol-item' className='hero__sliderImage' />
+                    <div className={index === current ? 'slide active' : 'slide'} key={index} >
+                        <ArrowBackIosIcon className="backArrow" onClick={prevSlide}/>
+                        <ArrowForwardIosIcon className="forwardArrow" onClick={nextSlide} />
+                        {index === current && (<img src={slide.image} alt='eol-item' className='hero__sliderImage' />)}
+                    </div>    
                 )
             })}
-        </hero>
+        </div>
     )
 };
 
