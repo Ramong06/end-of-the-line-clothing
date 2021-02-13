@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 // import { SliderData } from "./Components/SliderData";
 // import Hero from "../components/Hero";
+import Background from './images/tailor-pic.jpg'
 import Bebe from './images/beeb.jpeg';
 import Row from "./Components/Row";
 import Col from "./Components/Col";
@@ -12,7 +13,13 @@ import Container from "./Components/Container";
 const App =() => {
   return (
 
-    <div>
+    <div style={{
+      backgroundImage: `url(${Background})`,
+      backgroundPosition: 'top',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      
+    }}>
       <Navbar />
       {/* <ImageSlider slides={SliderData} /> */}
       <Container>

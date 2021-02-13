@@ -1,6 +1,7 @@
 .navBar {
     padding-top: 0.5px;
     padding-bottom: 0.1px;
+    background-color: transparent !important;
 }
 
 .nav__menu {
