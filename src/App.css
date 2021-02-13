@@ -1,5 +1,5 @@
 body {
-  --eod-background: 	#D2B48C;
+  --eod-background: 	#f3f2f0;
 }
 
 .App {
@@ -13,4 +13,14 @@ body {
 
 .slider__row {
   justify-content: center;
+}
+
+.bebe__image {
+  border-radius: 30px;
+  opacity: 85%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bebe__column {
+  padding-top: 35px;
 }

@@ -1,21 +1,25 @@
 import React from "react";
 import './App.css';
-import ImageSlider from "./Components/ImageSlider";
+// import ImageSlider from "./Components/ImageSlider";
 import Navbar from './Components/Navbar';
-import { SliderData } from "./Components/SliderData";
+// import { SliderData } from "./Components/SliderData";
 // import Hero from "../components/Hero";
+import Bebe from './images/beeb.jpeg';
 import Row from "./Components/Row";
-// import Col from "./Components/Col";
+import Col from "./Components/Col";
 import Container from "./Components/Container";
 
 const App =() => {
   return (
 
-      <div>
+    <div>
       <Navbar />
+      {/* <ImageSlider slides={SliderData} /> */}
       <Container>
         <Row className='slider__row'>
-          <ImageSlider slides={SliderData} />
+          <Col size="md-12 sm-6 justify-content-md-center" id="bebe__column">
+            <img className = 'bebe__image' src = {Bebe} alt = 'woman-taking-selfie' height = '400px' width = '400px' />
+          </Col>
         </Row>
       </Container>
       </div>
